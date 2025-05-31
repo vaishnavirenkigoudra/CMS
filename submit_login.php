@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['user_name'] = $user['name'];
 
             // Redirect to index.html
-            header("Location: index.php");
+            header("Location: complaint.html");
             exit();
         } else {
             echo "Invalid password. <a href='login.html'>Try again</a>";
