@@ -37,10 +37,29 @@
             border: none;
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            min-height: 230px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
         .card i {
             font-size: 2rem;
             margin-bottom: 10px;
+        }
+        .card h5 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .card p {
+            flex: 1;
+            text-align: center;
+        }
+        .row.g-4 > [class^="col-"] {
+            display: flex;
+        }
+        .card .btn {
+            margin-top: 10px;
         }
     </style>
 </head>
@@ -53,8 +72,6 @@
         <a href="display_contacts.php"><i class="fas fa-users me-2"></i> User Management</a>
         <a href="officers.php"><i class="fas fa-user-shield me-2"></i> Officer Management</a>
         <a href="assign_complaints.php"><i class="fas fa-user-tag me-2"></i> Assign Complaints</a>
-        <a href="#reports"><i class="fas fa-chart-bar me-2"></i> Reports</a>
-        <a href="#settings"><i class="fas fa-cogs me-2"></i> Settings</a>
     </div>
 
     <!-- Content -->
@@ -63,52 +80,36 @@
 
         <!-- Cards Section -->
         <div class="row g-4">
-            <div class="col-md-6 col-lg-3">
-                <div class="card bg-primary text-white p-4">
+            <div class="col-md-6 col-lg-3 d-flex">
+                <div class="card bg-primary text-white p-4 w-100">
                     <i class="fas fa-tasks"></i>
                     <h5>Manage Complaints</h5>
                     <p>View and resolve complaints efficiently.</p>
                     <a href="complaints_table.php" class="btn btn-light btn-sm">Go to Module</a>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="card bg-success text-white p-4">
+            <div class="col-md-6 col-lg-3 d-flex">
+                <div class="card bg-success text-white p-4 w-100">
                     <i class="fas fa-users"></i>
                     <h5>User Management</h5>
                     <p>Manage users and their roles.</p>
                     <a href="display_contacts.php" class="btn btn-light btn-sm">Go to Module</a>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="card bg-info text-white p-4">
+            <div class="col-md-6 col-lg-3 d-flex">
+                <div class="card bg-info text-white p-4 w-100">
                     <i class="fas fa-user-shield"></i>
                     <h5>Officer Management</h5>
                     <p>Add and manage officers.</p>
                     <a href="officers.php" class="btn btn-light btn-sm">Go to Module</a>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="card bg-warning text-white p-4">
+            <div class="col-md-6 col-lg-3 d-flex">
+                <div class="card bg-warning text-white p-4 w-100">
                     <i class="fas fa-user-tag"></i>
                     <h5>Assign Complaints</h5>
                     <p>Assign complaints to officers.</p>
                     <a href="assign_complaints.php" class="btn btn-light btn-sm">Go to Module</a>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="card bg-secondary text-white p-4">
-                    <i class="fas fa-chart-bar"></i>
-                    <h5>Reports</h5>
-                    <p>Generate and view detailed reports.</p>
-                    <a href="#reports" class="btn btn-light btn-sm">Go to Module</a>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="card bg-danger text-white p-4">
-                    <i class="fas fa-cogs"></i>
-                    <h5>Settings</h5>
-                    <p>Configure system settings.</p>
-                    <a href="#settings" class="btn btn-light btn-sm">Go to Module</a>
                 </div>
             </div>
         </div>

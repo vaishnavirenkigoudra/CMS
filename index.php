@@ -61,7 +61,7 @@
                     </div>
                 </div>
                <nav class="navbar navbar-light bg-light navbar-expand-xl">
-    <a href="index.html" class="navbar-brand ms-3">
+    <a href="index.php" class="navbar-brand ms-3">
         <h1 class="text-primary display-5">CMS</h1>
     </a>
     <button class="navbar-toggler py-2 px-3 me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -69,7 +69,7 @@
     </button>
     <div class="collapse navbar-collapse bg-light" id="navbarCollapse">
         <div class="navbar-nav ms-auto">
-            <a href="index.html" class="nav-item nav-link active">Home</a>
+            <a href="index.php" class="nav-item nav-link active">Home</a>
             <a href="#about" class="nav-item nav-link">About</a>
             <a href="#service" class="nav-item nav-link">Services</a>
             <a href="#causes" class="nav-item nav-link">LearnMore</a>
@@ -77,7 +77,7 @@
             <a href="contact.html" class="nav-item nav-link">Contact</a>
         </div>
         <div class="d-flex align-items-center flex-nowrap pt-xl-0" style="margin-left: 15px;">
-            <a href="register.html" class="btn-hover-bg btn btn-outline-primary text-primary py-2 px-4 me-3">Register</a>
+            <a href="register.php" class="btn-hover-bg btn btn-outline-primary text-primary py-2 px-4 me-3">Register</a>
             <a href="login.html" class="btn-hover-bg btn btn-primary text-white py-2 px-4 me-3">Login</a>
             <a href="complaint.html" class="btn-hover-bg btn btn-primary text-white py-2 px-4  me-3">Complaint Now</a>
         </div>
@@ -148,13 +148,9 @@
             </div>
         </div>
         <!-- Carousel End -->
-
-
-
-
-
+        
         <!-- About Start -->
-        <div class="container-fluid about py-5">
+        <div class="container-fluid about py-5" id="about">
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-xl-5">
@@ -240,7 +236,7 @@
 
 
       <!-- Services Start -->
-<div class="container-fluid service py-5 bg-light">
+<div class="container-fluid service py-5 bg-light" id="service">
     <div class="container py-5">
         <div class="text-center mx-auto pb-5" style="max-width: 800px;">
             <h5 class="text-uppercase text-primary">Our Services</h5>
@@ -301,7 +297,7 @@
 
      
 <!-- Events Start -->
-<div class="container-fluid event py-5">
+<div class="container-fluid event py-5"id="causes">
     <div class="container py-5">
         <div class="text-center mx-auto mb-5" style="max-width: 800px;">
             <h5 class="text-uppercase text-primary">Upcoming Events</h5>
@@ -364,7 +360,7 @@
        
 
     <!-- Volunteers Start -->
-<div class="container-fluid volunteer py-5 mt-5">
+<div class="container-fluid volunteer py-5 mt-5"id="events">
     <div class="container py-5">
         <div class="row g-5">
             <div class="col-lg-5">
