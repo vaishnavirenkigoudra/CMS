@@ -5,10 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Messages</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #e0e7ff 0%, #f8fafc 100%);
+            min-height: 100vh;
+        }
+        .container {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 32px rgba(44, 62, 80, 0.10);
+            padding: 40px 28px;
+            margin-top: 40px;
+        }
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #1a237e;
+            letter-spacing: 1px;
+            margin-bottom: 1.5rem;
+        }
+        .btn-primary.mb-4 {
+            background: linear-gradient(90deg, #007bff 60%, #0056b3 100%);
+            border: none;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            box-shadow: 0 2px 8px rgba(0,123,255,0.08);
+        }
+        .btn-warning, .btn-danger {
+            margin-right: 4px;
+        }
+        .table {
+            margin-bottom: 0;
+            border-radius: 8px;
+            overflow: hidden;
+            background: #f9fafb;
+        }
+        .table thead th {
+            background: #212529;
+            color: #fff;
+            letter-spacing: 1px;
+            font-size: 1.08rem;
+        }
+        .table-striped > tbody > tr:nth-of-type(odd) {
+            background-color: #f2f6fc;
+        }
+        .table-bordered {
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .table th, .table td {
+            vertical-align: middle !important;
+            font-size: 1.03rem;
+        }
+        .table td .btn {
+            padding: 0.25rem 0.7rem;
+            font-size: 0.95rem;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 12px 2px;
+            }
+            h1 {
+                font-size: 1.4rem;
+            }
+            .table th, .table td {
+                font-size: 0.95rem;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="container my-5">
-        <a href="dashboard.php" class="btn btn-primary mb-4">Back to Dashboard</a> <!-- Back button -->
+        <a href="dashboard.php" class="btn btn-primary mb-4">Back to Dashboard</a>
         <h1 class="mb-4">Contact Messages</h1>
         <table class="table table-bordered table-striped">
             <thead class="table-dark">
@@ -20,7 +88,7 @@
                     <th>Subject</th>
                     <th>Message</th>
                     <th>Date Submitted</th>
-                    <th>Actions</th> <!-- New column for actions -->
+                    <th>Actions</th>
                 </tr>
             </thead>
             <tbody>

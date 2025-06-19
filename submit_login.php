@@ -36,7 +36,30 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             header("Location: complaint.html");
             exit();
         } else {
-            echo "Invalid password. <a href='login.html'>Try again</a>";
+            echo "<div style='
+                margin:60px auto;
+                max-width:400px;
+                background:#fff;
+                border-radius:10px;
+                box-shadow:0 2px 16px rgba(44,62,80,0.10);
+                padding:32px 24px;
+                text-align:center;
+                font-family:sans-serif;
+            '>
+                <h4 style='color:#c0392b;margin-bottom:18px;'>Invalid password.</h4>
+                <a href='login.html' style='
+                    display:inline-block;
+                    margin-top:10px;
+                    padding:8px 24px;
+                    background:linear-gradient(90deg,#007bff 60%,#0056b3 100%);
+                    color:#fff;
+                    border-radius:6px;
+                    text-decoration:none;
+                    font-weight:600;
+                    letter-spacing:0.5px;
+                    box-shadow:0 2px 8px rgba(0,123,255,0.08);
+                '>Try again</a>
+            </div>";
         }
     } else {
         echo "No user found with this email. <a href='register.html'>Register here</a>";

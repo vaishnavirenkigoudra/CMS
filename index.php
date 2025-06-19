@@ -74,7 +74,7 @@
             <a href="#service" class="nav-item nav-link">Services</a>
             <a href="#causes" class="nav-item nav-link">LearnMore</a>
             <a href="#events" class="nav-item nav-link">Team</a>
-            <a href="contact.html" class="nav-item nav-link">Contact</a>
+            <!--<a href="contact.html" class="nav-item nav-link">Contact</a>-->
         </div>
         <div class="d-flex align-items-center flex-nowrap pt-xl-0" style="margin-left: 15px;">
             <?php

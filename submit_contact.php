@@ -26,7 +26,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             VALUES ('$name', '$email', '$phone', '$subject', '$message')";
 
     if ($conn->query($sql) === TRUE) {
-        echo "Message submitted successfully!";
+        echo '<div style="margin:40px auto;max-width:400px;padding:20px;background:#e6f9ed;border:1px solid #b2dfdb;border-radius:8px;color:#218838;font-size:1.2rem;text-align:center;">
+                <i class="fas fa-check-circle" style="color:#28a745;font-size:2rem;"></i><br>
+                Message submitted successfully!
+              </div>';
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
