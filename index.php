@@ -77,6 +77,7 @@
             <!--<a href="contact.html" class="nav-item nav-link">Contact</a>-->
         </div>
         <div class="d-flex align-items-center flex-nowrap pt-xl-0" style="margin-left: 15px;">
+<<<<<<< HEAD
             <?php
              if (!isset($_SESSION['user_id'])) {
             echo '<a href="register.php" class="btn-hover-bg btn btn-outline-primary text-primary py-2 px-4 me-3">Register</a>
@@ -94,6 +95,11 @@
             }
             ?>
             <!-- <a href="complaint.html" class="btn-hover-bg btn btn-primary text-white py-2 px-4  me-3">Complaint Now</a> -->
+=======
+            <a href="register.php" class="btn-hover-bg btn btn-outline-primary text-primary py-2 px-4 me-3">Register</a>
+            <a href="login.html" class="btn-hover-bg btn btn-primary text-white py-2 px-4 me-3">Login</a>
+            <a href="complaint.html" class="btn-hover-bg btn btn-primary text-white py-2 px-4  me-3">Complaint Now</a>
+>>>>>>> 1d34ab5ec8b0d4a927e060e3a8be9d39ef1cd46b
         </div>
     </div>
 </nav>
