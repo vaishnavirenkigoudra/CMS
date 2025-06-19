@@ -10,12 +10,13 @@
             background: linear-gradient(135deg, #e0e7ff 0%, #f8fafc 100%);
             min-height: 100vh;
         }
-        .container {
+     
+     <!---   .container {
             background: #fff;
             border-radius: 16px;
             box-shadow: 0 4px 32px rgba(44, 62, 80, 0.10);
             padding: 40px 28px;
-            margin-top: 40px;
+            margin-top: 40px;  --->
         }
         h1 {
             font-size: 2.4rem;

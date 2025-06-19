@@ -37,20 +37,19 @@
         }
         .card {
             border: none;
-<<<<<<< HEAD
+
             border-radius: 18px;
             box-shadow: 0 8px 32px rgba(44, 62, 80, 0.10), 0 1.5px 6px rgba(44, 62, 80, 0.08);
             min-height: 240px;
-=======
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             min-height: 230px;
->>>>>>> 1d34ab5ec8b0d4a927e060e3a8be9d39ef1cd46b
+
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-<<<<<<< HEAD
+
             background: #fff;
             transition: transform 0.2s, box-shadow 0.2s;
             position: relative;
@@ -71,8 +70,6 @@
         .card:hover {
             transform: translateY(-8px) scale(1.04);
             box-shadow: 0 16px 32px rgba(44, 62, 80, 0.18), 0 2px 8px rgba(44, 62, 80, 0.10);
-=======
->>>>>>> 1d34ab5ec8b0d4a927e060e3a8be9d39ef1cd46b
         }
         .card i {
             font-size: 2.8rem;
@@ -126,10 +123,7 @@
         <a href="display_contacts.php"><i class="fas fa-users me-2"></i> User Management</a>
         <a href="officers.php"><i class="fas fa-user-shield me-2"></i> Officer Management</a>
         <a href="assign_complaints.php"><i class="fas fa-user-tag me-2"></i> Assign Complaints</a>
-<<<<<<< HEAD
         <a href="logout.php"><i class="fas fa-sign-out-alt me-2"></i> Logout</a>
-=======
->>>>>>> 1d34ab5ec8b0d4a927e060e3a8be9d39ef1cd46b
     </div>
 
     <!-- Content -->
